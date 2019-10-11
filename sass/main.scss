@@ -23,6 +23,38 @@ button {
     font-weight: bold;
 }
 
+#about {
+    width: 100%;
+
+    #about-text {
+        width: 95%;
+        margin: auto;
+
+        h1{
+            padding: 15px 0;
+            font-size: 2em;
+            line-height: 1.5em;
+            font-weight: bold;
+        }
+
+        h2{
+            padding-top: 15px;
+            font-size: 2em;
+            line-height: 1em;
+            font-weight: bold;
+        }
+    
+        p {
+            padding-top: 15px;
+            padding-bottom: 20px;
+            font-size: 1.1em;
+            line-height: 1.2em;
+        }
+    }
+
+    img {width:90%; max-width: 600px;}
+}
+
 #hook {
     height: 550px;
     background-image: url("../images/hook_small.jpg");
@@ -31,10 +63,11 @@ button {
     background-size: auto;
     text-align: center;
     margin: auto;
+    margin-top:15px;
 
     @media only screen and (min-width: 600px) { background-image: url("../images/hook_mid.jpg");} 
-
     @media only screen and (min-width: 950px) { background-image: url("../images/hook.jpg");}
+
     h2{
         padding: 15px;
         font-size: 2em;
@@ -50,5 +83,36 @@ button {
             font-size: 1.1em;
         }
     }
+}
+
+#how {
+    margin: auto;
+    padding: 40px 0;
+    
+
+    #how-text {
+        width: inherit;
+        border: solid black;
+        margin: auto;
+
+        h2{
+            padding-top: 15px;
+            font-size: 2em;
+            line-height: 1.5em;
+            font-weight: bold;
+        }
+    
+        p {
+            padding: 15px;
+            font-size: 1.1em;
+            line-height: 1.2em;
+        }
+
+        i {font-style: italic;}
+
+        @media only screen and (min-width: 600px) {margin-top:40; margin-bottom:40px; width: 70%;} 
+    }
+
+    @media only screen and (min-width: 600px) {margin-top:40; margin-bottom:40px; width: 100%;} 
 }
 

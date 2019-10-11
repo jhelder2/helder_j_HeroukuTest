@@ -82,6 +82,12 @@ header {
     text-align: center; }
   header nav {
     width: 40%; }
+    @media only screen and (min-width: 600px) {
+      header nav {
+        width: 30%; } }
+    @media only screen and (min-width: 950px) {
+      header nav {
+        width: 20%; } }
     header nav ul {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -97,6 +103,62 @@ header {
       header nav ul li a {
         text-decoration: none;
         color: white; }
+
+footer {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 76px;
+  width: 100%;
+  background-color: black; }
+  footer #footer-logo {
+    width: 20%;
+    max-width: 100px;
+    height: inherit;
+    margin-left: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url("../images/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    text-align: center; }
+  footer nav {
+    width: 40%; }
+    @media only screen and (min-width: 600px) {
+      footer nav {
+        width: 30%; } }
+    @media only screen and (min-width: 950px) {
+      footer nav {
+        width: 20%; } }
+    footer nav ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly;
+      padding: 5px; }
+      footer nav ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: .8em; }
 
 main {
   width: 90%;
@@ -115,6 +177,30 @@ button {
   text-transform: uppercase;
   font-weight: bold; }
 
+#about {
+  width: 100%; }
+  #about #about-text {
+    width: 95%;
+    margin: auto; }
+    #about #about-text h1 {
+      padding: 15px 0;
+      font-size: 2em;
+      line-height: 1.5em;
+      font-weight: bold; }
+    #about #about-text h2 {
+      padding-top: 15px;
+      font-size: 2em;
+      line-height: 1em;
+      font-weight: bold; }
+    #about #about-text p {
+      padding-top: 15px;
+      padding-bottom: 20px;
+      font-size: 1.1em;
+      line-height: 1.2em; }
+  #about img {
+    width: 90%;
+    max-width: 600px; }
+
 #hook {
   height: 550px;
   background-image: url("../images/hook_small.jpg");
@@ -122,7 +208,8 @@ button {
   background-position: center;
   background-size: auto;
   text-align: center;
-  margin: auto; }
+  margin: auto;
+  margin-top: 15px; }
   @media only screen and (min-width: 600px) {
     #hook {
       background-image: url("../images/hook_mid.jpg"); } }
@@ -139,5 +226,34 @@ button {
     #hook p emp {
       font-weight: bold;
       font-size: 1.1em; }
+
+#how {
+  margin: auto;
+  padding: 40px 0; }
+  #how #how-text {
+    width: inherit;
+    border: solid black;
+    margin: auto; }
+    #how #how-text h2 {
+      padding-top: 15px;
+      font-size: 2em;
+      line-height: 1.5em;
+      font-weight: bold; }
+    #how #how-text p {
+      padding: 15px;
+      font-size: 1.1em;
+      line-height: 1.2em; }
+    #how #how-text i {
+      font-style: italic; }
+    @media only screen and (min-width: 600px) {
+      #how #how-text {
+        margin-top: 40;
+        margin-bottom: 40px;
+        width: 70%; } }
+  @media only screen and (min-width: 600px) {
+    #how {
+      margin-top: 40;
+      margin-bottom: 40px;
+      width: 100%; } }
 
 /*# sourceMappingURL=main.css.map */
