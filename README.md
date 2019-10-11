@@ -1,17 +1,29 @@
 # Node and Express for HW1
 
-You can use this example file as your starting point, if you're having trouble with the build files in class.
+## Web app showcasing the Monthly Break-Box.
+        A monthy subscription box for going through a break-up.
 
-Clone the project wherever you like. CD into the project, and NPM install
+## Used a bunch of new stuff. 
+        node.js
+        herouku
+        .scss
+        koala compiler
+        stuff i don't even know, but we're gunna learn more next-next week
 
-Run NPM start, or node app - either way, you should get an instance running on localhost:3000
-
-To compile the SASS you can write **sass --watch sass:public/css --style compressed** in a terminal window. That will compile all of your sass to the public/css folder
-
-Remember - you don't have to include the /public part of your static asset resource paths. css/main.css or images/name_of_image is fine.
-
-We're just sending index.html back via the main route, so build your project in that file as before and you should be good to go!
-
-Remember to add the node.js buildpack on Heroku, and include the live Heroku link with your submission.
-
-Cheers!
+## BREAK BOX
+        ______________________________________________
+        |      ____  _____  ______          _  __    |
+        |     |  _ \|  __ \|  ____|   /\   | |/ /    |
+        |     | |_) | |__) | |__     /  \  | ' /     |
+        |     |  _ <|  _  /|  __|   / /\ \ |  <      |
+        |     | |_) | | \ \| |____ / ____ \| . \     |
+        |     |____/|_|__\_\______/_/    \_\_|\_\    |
+        |            |  _ \ / __ \ \ / /             |      
+        |            | |_) | |  | \ V /              |      
+        |            |  _ <| |  | |> <               |      
+        |            | |_) | |__| / . \              |      
+        |            |____/ \____/_/ \_\             |    
+        |                 ( \ / )                    |        
+        |_______________   \ X /    _________________|
+                            \ /
+                             -                 
