@@ -1,0 +1,33 @@
+header {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    height: 76px;
+    width: 100%;
+    background-color: black;
+
+    #logo {
+        width:30%;
+    }
+
+    nav {
+        width: 30%;
+
+        ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding: 5px;
+
+            li {
+                a {
+                    text-decoration: none;
+                    color: white;
+                }
+            }
+        }
+    }
+}
