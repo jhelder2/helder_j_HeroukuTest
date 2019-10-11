@@ -68,7 +68,18 @@ header {
   width: 100%;
   background-color: black; }
   header #logo {
-    width: 40%; }
+    width: 30%;
+    max-width: 180px;
+    height: inherit;
+    margin-left: 10px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: url("../images/logo.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    text-align: center; }
   header nav {
     width: 40%; }
     header nav ul {
@@ -93,8 +104,40 @@ main {
   margin: 0 auto;
   padding-top: 76px; }
 
-#bottle {
-  width: 30%;
+button {
+  padding-bottom: 15px;
+  font-size: 1.15em;
+  padding: 14px;
+  letter-spacing: 0;
+  margin: 10px;
+  background-color: lightgrey;
+  border-color: lightgrey;
+  text-transform: uppercase;
+  font-weight: bold; }
+
+#hook {
+  height: 550px;
+  background-image: url("../images/hook_small.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+  text-align: center;
   margin: auto; }
+  @media only screen and (min-width: 600px) {
+    #hook {
+      background-image: url("../images/hook_mid.jpg"); } }
+  @media only screen and (min-width: 950px) {
+    #hook {
+      background-image: url("../images/hook.jpg"); } }
+  #hook h2 {
+    padding: 15px;
+    font-size: 2em;
+    line-height: 1.5em;
+    font-weight: bold; }
+  #hook p {
+    padding: 10px; }
+    #hook p emp {
+      font-weight: bold;
+      font-size: 1.1em; }
 
 /*# sourceMappingURL=main.css.map */

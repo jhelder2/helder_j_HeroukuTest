@@ -1,6 +1,7 @@
 @import '_reset';
 @import '_vars';
 @import '_header';
+@import '_footer';
 
 
 main {
@@ -10,8 +11,44 @@ main {
     padding-top: 76px;
 }
 
-#bottle {
-    width: 30%;
+button {
+    padding-bottom: 15px;
+    font-size: 1.15em;
+    padding: 14px;
+    letter-spacing: 0;
+    margin: 10px;
+    background-color: lightgrey;
+    border-color: lightgrey;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#hook {
+    height: 550px;
+    background-image: url("../images/hook_small.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    text-align: center;
     margin: auto;
+
+    @media only screen and (min-width: 600px) { background-image: url("../images/hook_mid.jpg");} 
+
+    @media only screen and (min-width: 950px) { background-image: url("../images/hook.jpg");}
+    h2{
+        padding: 15px;
+        font-size: 2em;
+        line-height: 1.5em;
+        font-weight: bold;
+    }
+
+    p {
+        padding: 10px;
+
+        emp {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+    }
 }
 
